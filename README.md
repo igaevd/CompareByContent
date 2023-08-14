@@ -1,31 +1,34 @@
-# Compare By Content Plugin for fman
+# CompareByContent Plugin for fman
 
-## Description
-
-This plugin adds a new command "Compare By Content" to the fman command palette for macOS. When called, it launches `opendiff file1 file2`, where `file1` and `file2` are the selected files in the left and right panels. If files are not selected in both panels, an error alert will be displayed.
-
-## Installation
-
-1. Navigate to the fman's plugins directory.
-2. Create a new folder named "CompareByContent."
-3. Follow the instructions from the original guide to set up the required files.
-4. Restart fman to load the new plugin.
-
-## Usage
-
-- Use the "Cmd+Y" keyboard shortcut or find "Compare By Content" in the command palette to launch the comparison.
-- Ensure that files are selected in both the left and right panes before executing the command.
+This fman plugin provides a feature to compare two files by content on Mac. It integrates with the `opendiff` tool (FileMerge app from Xcode) to compare the contents of selected files in the left and right panes.
 
 ## Requirements
 
-- macOS with Xcode and command-line tools installed.
-- fman file commander for Mac.
-- Ensure that the `opendiff` command is accessible from the command line.
+- **Mac Only**: This plugin is developed specifically for Mac and won't work on other operating systems.
+- **Xcode**: The plugin uses the FileMerge app from Xcode, so Xcode must be installed on your Mac.
+
+## Installation
+
+You can install the CompareByContent plugin in two ways:
+
+1. **Manually**:
+    - Clone this repository.
+    - Copy the files to `/Users/<username>/Library/Application Support/fman/Plugins/User/` directory.
+    - Restart fman.
+    - [More details on manual installation](https://fman.io/docs/plugins-introduction)
+
+2. **Through fman Install Plugins feature**:
+    - Press Shift+Cmd+P in fman.
+    - Choose "Install Plugins".
+    - Search for "Compare By Content" and install.
+    - [More details on installing plugins through fman](https://fman.io/docs/installing-plugins)
+
+## Usage
+
+- Press CMD+Y to initiate the comparison. This shortcut can be customized in the `Key Bindings.json` file.
+- Select one file in both the left and right panes or no files in either pane.
+- If no files are selected, the file under the cursor will be compared with a matched file by name from the opposite pane.
 
 ## Support
 
-For support or inquiries, please contact [igaevd@gmail.com](mailto:igaevd@gmail.com).
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+If you encounter any issues or have any questions, please open an issue in this repository [CompareByContent](hhttps://github.com/igaevd/CompareByContent)
