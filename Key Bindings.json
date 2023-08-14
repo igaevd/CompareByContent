@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["Cmd+Y"],
+        "command": "compare_by_content"
+    }
+]

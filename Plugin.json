@@ -1,0 +1,13 @@
+{
+    "name": "CompareByContent",
+    "description": "Adds 'Compare By Content' command to fman's command palette.",
+    "version": "0.1",
+    "author": "igaevd",
+    "email": "igaevd@gmail.com",
+    "commands": [
+        {
+            "caption": "Compare By Content",
+            "command": "compare_by_content.CompareByContent"
+        }
+    ]
+}
