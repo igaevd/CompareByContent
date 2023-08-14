@@ -3,7 +3,7 @@
     "description": "Adds 'Compare By Content' command to fman's command palette.",
     "version": "0.1",
     "author": "igaevd",
-    "email": "igaevd@gmail.com",
+    "url": "https://github.com/igaevd/CompareByContent",
     "commands": [
         {
             "caption": "Compare By Content",
