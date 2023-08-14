@@ -1,13 +1,1 @@
-{
-    "name": "CompareByContent",
-    "description": "Adds 'Compare By Content' command to fman's command palette.",
-    "version": "0.1",
-    "author": "igaevd",
-    "url": "https://github.com/igaevd/CompareByContent",
-    "commands": [
-        {
-            "caption": "Compare By Content",
-            "command": "compare_by_content.CompareByContent"
-        }
-    ]
-}
+{"url": "https://api.github.com/repos/igaevd/CompareByContent", "ref": "1.0"}
